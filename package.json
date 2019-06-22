@@ -1,0 +1,22 @@
+{
+  "name": "mywebsite",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@binance-chain/javascript-sdk": "^2.13.6",
+    "bignumber.js": "^9.0.0",
+    "connect-mongo": "^2.0.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.16.2",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.6.0",
+    "morgan": "~1.9.1",
+    "web3": "^1.0.0-beta.55"
+  }
+}

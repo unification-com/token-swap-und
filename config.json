@@ -1,0 +1,29 @@
+{
+  "binanceChain" :
+  {
+    "testnet":
+    {
+       "apiServer":"https://testnet-dex.binance.org/api/v1/"
+    }
+  },
+  "ethereum":{
+    "testnet":
+    {
+       "rpcServer":"https://ropsten.infura.io/v3/8eb0dfd237c144dd8ed68f04018b92a8",
+       "wsServer":"",
+       "swapWallet":"0xd97655c0c2C9B5b325f96Cb2317291ca8Cf2E9F6",
+       "contractAddress":"0x972838Acf8D49f68eEdDBd5f20d0Dd7E2A227Bfd"
+    }
+  },
+  "network":"testnet",
+  "token":
+  {
+    "name":"Unification",
+    "symbol":"UND"
+  },
+  "db":{
+    "uri":"mongodb://localhost:27017/tokenswap"
+  },
+  "startBlock":500000,
+  "endBlock":5839020
+}
